@@ -7,9 +7,9 @@ public class MainCard : MonoBehaviour
     public MainCard originalCard;
     public Sprite[] ingredientsWithText;
     public Sprite[] ingredientsSymbols;
-    public const float offsetX = 1f;
+    public const float offsetX = 1.2f;
     public const float offsetY = 4f;
-    public const float scaling = 0.4f;
+    public const float scaling = 0.5f;
     public int ingredientCountPlayer = 0;
     public int ingredientCountAgent = 0;
     public int currentIngredient = 0;
