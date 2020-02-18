@@ -70,35 +70,5 @@ public class MainCard : MonoBehaviour
 
     }
 
-    // IEnumerator Wait(float seconds)
-    // {
-    // yield return new WaitForSeconds(seconds);
-    // }
 
-    //     public void FlyOff(bool player)
-    // {
-    //     // Change small ingredient card accroding to MainCard ingredient
-    //     Vector3 startPos = originalCard.transform.position;
-    //     startPos.x = 6; 
-    //     MainCard ingredientCard = Instantiate(originalCard) as MainCard;
-    //     ingredientCard.ChangeSprite(currentIngredient, ingredientsSymbols[currentIngredient]);
-
-    //     // Change MainCard ingredient
-    //     currentIngredient = Random.Range(0, ingredientsWithText.Length - 1);
-    //     originalCard.ChangeSprite(currentIngredient, ingredientsWithText[currentIngredient]);
-
-    //     if (player)
-    //     {
-    //         ingredientCard.transform.position = new Vector3(startPos.x - offsetX*ingredientCountPlayer, startPos.y - offsetY, startPos.z);
-    //         ingredientCard.transform.localScale = new Vector3(scaling, scaling, 1);
-    //         ingredientCountPlayer += 1;
-    //     }
-    //     else
-    //     {
-    //         ingredientCard.transform.position = new Vector3(-1*startPos.x + offsetX*ingredientCountAgent, startPos.y + offsetY, startPos.z);
-    //         ingredientCard.transform.localScale = new Vector3(scaling, scaling, 1);
-    //         ingredientCountAgent += 1;
-    //     }
-    // }
- 
 }

@@ -6,16 +6,7 @@ using UnityEditor;
 
 public class Exit : MonoBehaviour
 {
-    public void QuitGame() 
-    {
-        if(UnityEditor.EditorApplication.isPlaying){
-            // when running within the editor
-            UnityEditor.EditorApplication.isPlaying = false;
-        }
-        else
-        {
-            Application.Quit ();
-            
-        }
+    private void OnMouseDown(){
+        Application.Quit (); 
     }
 }
